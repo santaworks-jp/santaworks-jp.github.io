@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>制作サンプル</title>
+<style>
+  :root {
+    --bg: #faf8f4;
+    --fg: #1c1a17;
+    --muted: #6f6a62;
+    --rule: #d9d3c8;
+    --link: #1c1a17;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #16150f;
+      --fg: #e9e4d8;
+      --muted: #9a9384;
+      --rule: #38352c;
+      --link: #e9e4d8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+    line-height: 1.8;
+    font-size: 16px;
+  }
+  .wrap {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 14vh 24px 18vh;
+  }
+  header { margin-bottom: 64px; }
+  h1 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    margin: 0 0 16px;
+  }
+  header p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .work {
+    padding: 32px 0;
+    border-top: 1px solid var(--rule);
+  }
+  .work:last-of-type { border-bottom: 1px solid var(--rule); }
+  .work h2 {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 0 8px;
+  }
+  .work h2 a {
+    color: var(--link);
+    text-decoration: none;
+    border-bottom: 1px solid var(--fg);
+    padding-bottom: 1px;
+  }
+  .work h2 a:hover { opacity: 0.6; }
+  .work p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .work .meta {
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+  }
+  footer {
+    margin-top: 56px;
+    color: var(--muted);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>制作サンプル</h1>
+    <p>Web の自主制作サンプルです。掲載している店名・住所・連絡先・料金などはすべて架空で、実在しません。写真は商用可の素材、または生成 AI によるイメージです。</p>
+  </header>
+
+  <main>
+    <article class="work">
+      <h2><a href="nagi/">架空の美容サロン LP「凪 -nagi-」</a></h2>
+      <p>架空のフェイシャルサロンを題材にした 1 ページ LP。ファーストビュー→共感→メニュー→予約の順で構成を設計し、HTML・CSS・JavaScript で新規実装しました。スマホ対応、ハンバーガーメニュー、FAQ の開閉、スクロール表示。</p>
+      <p class="meta">企画・構成 / コピー / デザイン / HTML・CSS・JS 実装 — 2026</p>
+    </article>
+
+    <article class="work">
+      <h2><a href="shiraki/">架空の和食店 LP「日本料理 白木」</a></h2>
+      <p>金沢の夜のみ・完全予約制の和食店を題材にした 1 ページ LP。暗い和のトーンで、世界観→コース内容→アクセス→予約まで誘導する構成。縦組み見出し、予約リクエストフォーム（デモ動作）、スマホ対応。</p>
+      <p class="meta">企画・構成 / コピー / デザイン / HTML・CSS・JS 実装 — 2026</p>
+    </article>
+  </main>
+
+  <footer>更新 2026-09</footer>
+</div>
+</body>
+</html>
