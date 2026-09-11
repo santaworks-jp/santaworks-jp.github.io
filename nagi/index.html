@@ -1,0 +1,353 @@
+<!doctype html>
+<!--
+  ============================================================
+  凪 -nagi- facial salon  ／  店舗系ランディングページ（サンプル）
+  ------------------------------------------------------------
+  ※ これはポートフォリオ用に制作した「架空サロン」のサンプルです。
+     掲載の店名・住所・電話番号・料金・口コミ・担当者はすべて実在しません。
+  制作: santaworks（村田）
+  写真: Unsplash（商用利用可・帰属不要のライセンス）
+  構成: ファーストビュー → 共感 → コンセプト → メニュー → 施術の流れ
+        → サロン紹介 → お客様の声 → FAQ → アクセス → 予約CTA
+  ============================================================
+-->
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>凪 -nagi- ｜ 金沢の完全予約制フェイシャルサロン（サンプル）</title>
+<meta name="description" content="石川・金沢の住宅街にある、一日4名さまだけの完全予約制フェイシャルサロン「凪 -nagi-」。引き算のケアで、肌がしずかにととのう時間を。（ポートフォリオ用サンプル）">
+<meta name="robots" content="noindex">
+<meta property="og:type" content="website">
+<meta property="og:title" content="凪 -nagi- ｜ 金沢の完全予約制フェイシャルサロン">
+<meta property="og:description" content="一日4名さまだけの、静かなフェイシャルサロン。引き算のケアで肌をととのえます。">
+<meta property="og:locale" content="ja_JP">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">本文へスキップ</a>
+
+<header class="site-header" data-header>
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="凪 nagi facial salon ホーム">
+      <span class="brand-mark">凪</span>
+      <span class="brand-type">nagi<span class="brand-sub">facial salon</span></span>
+    </a>
+    <nav class="nav" aria-label="メインナビゲーション">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list" data-nav-toggle>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="visually-hidden">メニューを開く</span>
+      </button>
+      <ul class="nav-list" id="nav-list" data-nav-list>
+        <li><a href="#concept">コンセプト</a></li>
+        <li><a href="#menu">メニュー</a></li>
+        <li><a href="#flow">施術の流れ</a></li>
+        <li><a href="#salon">サロンについて</a></li>
+        <li><a href="#faq">よくある質問</a></li>
+        <li><a href="#access">アクセス</a></li>
+        <li class="nav-cta"><a href="#reserve">予約する</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<span id="top"></span>
+
+<!-- 1. ファーストビュー -->
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-media">
+    <img src="images/room2.jpg" alt="やわらかな陽が差し込む、静かなサロンの一室" fetchpriority="high" width="1600" height="1067">
+    <span class="hero-scrim" aria-hidden="true"></span>
+  </div>
+  <div class="wrap hero-body">
+    <p class="hero-kicker"><span class="rule" aria-hidden="true"></span><span class="hero-kicker-text">BY APPOINTMENT ｜ 完全予約制の個室サロン</span></p>
+    <h1 id="hero-title" class="hero-title">肌が、しずかに<br>ととのう時間。</h1>
+    <p class="hero-lead">石川・金沢の住宅街にある、一日4名さまだけのフェイシャルサロン。「あれもこれも」をやめて、その日の肌に必要なことだけを。</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#reserve">予約する</a>
+      <a class="btn btn-ghost" href="#menu">メニューを見る</a>
+    </div>
+  </div>
+  <span class="hero-badge" aria-hidden="true">
+    <span>EST.</span><b>2020</b><span>KANAZAWA</span>
+  </span>
+</section>
+
+<!-- 2. 共感 -->
+<section class="section section-empathy reveal" aria-labelledby="empathy-title">
+  <div class="wrap grid-2">
+    <div class="col-head">
+      <p class="kicker">こんな方へ</p>
+      <h2 id="empathy-title" class="h2">サロンは気になる。でも、気をつかうのは少し疲れる。</h2>
+    </div>
+    <ul class="checklist">
+      <li>鏡を見るたび、疲れが顔に出ている気がする</li>
+      <li>営業トークや回数券のすすめが、正直すこし苦手</li>
+      <li>自分のペースで、静かに過ごせる時間がほしい</li>
+      <li>スキンケア用品ばかり増えて、正解が分からない</li>
+    </ul>
+  </div>
+</section>
+
+<!-- 3. コンセプト -->
+<section class="section section-concept reveal" id="concept" aria-labelledby="concept-title">
+  <div class="wrap concept-top">
+    <p class="kicker">CONCEPT</p>
+    <h2 id="concept-title" class="h2 h2-lg">凪（なぎ）は、風がやんで海がおだやかになること。</h2>
+    <p class="lead">がんばるケアより、力をぬく時間を。肌のためにできる「いちばん静かなこと」を用意しています。</p>
+  </div>
+  <div class="wrap concept-grid">
+    <figure class="concept-figure">
+      <img src="images/corner.jpg" alt="窓辺のベンチとクッション。やわらかい光" loading="lazy" width="1000" height="1500">
+    </figure>
+    <ol class="concept-list">
+      <li>
+        <span class="num">01</span>
+        <h3>引き算のケア</h3>
+        <p>その日の肌に必要なことだけ。工程を足して「特別感」を演出することはしません。</p>
+      </li>
+      <li>
+        <span class="num">02</span>
+        <h3>会話は、あなたのペースで</h3>
+        <p>カウンセリングは必要な分だけ。目を閉じていたい日は、そう伝えてください。</p>
+      </li>
+      <li>
+        <span class="num">03</span>
+        <h3>続けやすい設計</h3>
+        <p>1回で劇的に、ではなく。通いやすい価格と頻度で、肌の調子を保ちます。</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- バンド（装飾） -->
+<section class="band" aria-hidden="true">
+  <img src="images/shadow.jpg" alt="" loading="lazy" width="1400" height="1867">
+  <p class="band-text">何もしない時間を、肌のために。</p>
+</section>
+
+<!-- 4. メニュー & 料金 -->
+<section class="section section-menu reveal" id="menu" aria-labelledby="menu-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">MENU &amp; PRICE</p>
+      <h2 id="menu-title" class="h2">メニューと料金</h2>
+      <p class="note">表示はすべて税込です。初回はカウンセリング（約15分）を含みます。</p>
+    </div>
+    <div class="menu-list">
+      <article class="menu-item">
+        <div class="menu-item-main">
+          <h3>ベーシックフェイシャル</h3>
+          <p>クレンジングから保湿まで。肌の状態を見ながら、基本の手入れをていねいに。</p>
+        </div>
+        <div class="menu-item-meta">
+          <span class="time">60分</span>
+          <span class="price">¥8,800</span>
+        </div>
+      </article>
+      <article class="menu-item">
+        <div class="menu-item-main">
+          <h3>リセットフェイシャル</h3>
+          <p>肩・デコルテのほぐしを加えた、しっかり休みたい日のためのコース。</p>
+        </div>
+        <div class="menu-item-meta">
+          <span class="time">90分</span>
+          <span class="price">¥13,200</span>
+        </div>
+      </article>
+      <article class="menu-item">
+        <div class="menu-item-main">
+          <h3>ショートケア</h3>
+          <p>時間のない日に、要点だけ。はじめての方のお試しにもおすすめです。</p>
+        </div>
+        <div class="menu-item-meta">
+          <span class="time">40分</span>
+          <span class="price">¥6,600</span>
+        </div>
+      </article>
+    </div>
+    <div class="menu-option">
+      <h3>オプション</h3>
+      <ul>
+        <li><span>目もとトリートメント</span><span>+15分 ／ ¥1,650</span></li>
+        <li><span>ハンドマッサージ</span><span>+10分 ／ ¥1,100</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 5. 施術の流れ -->
+<section class="section section-flow reveal" id="flow" aria-labelledby="flow-title">
+  <div class="wrap grid-2 flow-grid">
+    <div class="col-head">
+      <p class="kicker">FLOW</p>
+      <h2 id="flow-title" class="h2">当日の流れ</h2>
+      <figure class="flow-figure">
+        <img src="images/hands.jpg" alt="手のひらに美容液をとる様子" loading="lazy" width="1400" height="933">
+      </figure>
+    </div>
+    <ol class="steps">
+      <li>
+        <h3><span class="step-no">1</span>ご予約</h3>
+        <p>Web またはLINEから。希望の日時と、気になっていることを一言そえてください。</p>
+      </li>
+      <li>
+        <h3><span class="step-no">2</span>カウンセリング</h3>
+        <p>その日の肌と体調をうかがい、メニューを一緒に決めます。無理にコースを上げることはしません。</p>
+      </li>
+      <li>
+        <h3><span class="step-no">3</span>施術</h3>
+        <p>個室で。照明と音は控えめにしています。そのまま眠ってしまって大丈夫です。</p>
+      </li>
+      <li>
+        <h3><span class="step-no">4</span>アフター</h3>
+        <p>温かいお茶を一杯。次回の目安だけお伝えします。物販や回数券のご案内はありません。</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- 6. サロンについて -->
+<section class="section section-salon reveal" id="salon" aria-labelledby="salon-title">
+  <div class="wrap grid-2 salon-grid">
+    <figure class="salon-figure">
+      <img src="images/room.jpg" alt="ベッドと棚が置かれた、明るいサロンの個室" loading="lazy" width="1600" height="1067">
+    </figure>
+    <div class="salon-body">
+      <p class="kicker">ABOUT</p>
+      <h2 id="salon-title" class="h2">個室ひとつの、<br>小さなサロンです。</h2>
+      <p>スタッフはセラピスト1名。予約と予約のあいだに余白をとっているので、来店から退店まで他のお客さまと顔を合わせることはほとんどありません。</p>
+      <dl class="salon-profile">
+        <div>
+          <dt>担当</dt>
+          <dd>白石 凪（しらいし なぎ）</dd>
+        </div>
+        <div>
+          <dt>経歴</dt>
+          <dd>エステティック歴12年。大型店で10年勤めたのち、一人ひとりに時間をかけたいと2020年に開業。</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- 7. お客様の声 -->
+<section class="section section-voice reveal" aria-labelledby="voice-title">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="kicker">VOICE</p>
+      <h2 id="voice-title" class="h2">通っている方の声</h2>
+    </div>
+    <div class="voice-grid">
+      <blockquote class="voice-card">
+        <p>「“とりあえずこれも”がないので、通っても負担になりません。」</p>
+        <footer>30代・会社員</footer>
+      </blockquote>
+      <blockquote class="voice-card">
+        <p>「終わったあとの静けさが好きで、月に一度の予約が習慣になりました。」</p>
+        <footer>40代・自営業</footer>
+      </blockquote>
+      <blockquote class="voice-card">
+        <p>「初回に肌の状態をていねいに説明してもらえて、家でのケアが減りました。」</p>
+        <footer>30代・パート</footer>
+      </blockquote>
+    </div>
+    <p class="note">※ 感想には個人差があります。</p>
+  </div>
+</section>
+
+<!-- 8. FAQ -->
+<section class="section section-faq reveal" id="faq" aria-labelledby="faq-title">
+  <div class="wrap grid-2 faq-grid">
+    <div class="col-head">
+      <p class="kicker">FAQ</p>
+      <h2 id="faq-title" class="h2">よくある質問</h2>
+    </div>
+    <div class="faq-list" data-faq>
+      <details>
+        <summary>初めてでも大丈夫ですか？</summary>
+        <div class="faq-answer"><p>はい。初回はカウンセリングを含めてご案内します。当日でも空きがあればご予約いただけます。</p></div>
+      </details>
+      <details>
+        <summary>勧誘や物販はありますか？</summary>
+        <div class="faq-answer"><p>回数券や化粧品の販売はしていません。ご希望があったときだけ、市販品の使い方をお伝えします。</p></div>
+      </details>
+      <details>
+        <summary>男性も利用できますか？</summary>
+        <div class="faq-answer"><p>申し訳ありませんが、現在は女性のみのご案内とさせていただいています。</p></div>
+      </details>
+      <details>
+        <summary>支払い方法は？</summary>
+        <div class="faq-answer"><p>現金・各種QRコード決済・クレジットカードがご利用いただけます。</p></div>
+      </details>
+      <details>
+        <summary>キャンセルはできますか？</summary>
+        <div class="faq-answer"><p>前日までのご連絡で無料です。当日のキャンセルは施術料の50%を申し受けます。</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- 9. アクセス -->
+<section class="section section-access reveal" id="access" aria-labelledby="access-title">
+  <div class="wrap grid-2 access-grid">
+    <div class="access-body">
+      <p class="kicker">ACCESS</p>
+      <h2 id="access-title" class="h2">アクセス</h2>
+      <dl class="access-list">
+        <div><dt>住所</dt><dd>〒920-0000　石川県金沢市○○町 0-0-0<span class="tag-sample">架空の住所です</span></dd></div>
+        <div><dt>最寄り</dt><dd>北鉄バス「○○」停より徒歩3分／専用駐車場 1台</dd></div>
+        <div><dt>営業時間</dt><dd>10:00 – 19:00（最終受付 17:30）</dd></div>
+        <div><dt>定休日</dt><dd>日曜・月曜</dd></div>
+        <div><dt>ご予約</dt><dd>Web予約フォーム／LINE</dd></div>
+      </dl>
+    </div>
+    <figure class="access-figure">
+      <img src="images/tea.jpg" alt="木のトレイにのせた湯のみとティーポット" loading="lazy" width="1400" height="933">
+      <figcaption>施術のあとに、温かいお茶を一杯お出ししています。</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- 10. 予約CTA -->
+<section class="reserve" id="reserve" aria-labelledby="reserve-title">
+  <div class="wrap reserve-inner">
+    <h2 id="reserve-title">次の予約を、<br>いま取っておく。</h2>
+    <p>一日4名さまだけです。ご希望の日時はお早めにご相談ください。</p>
+    <div class="reserve-actions">
+      <a class="btn btn-primary btn-lg" href="#" aria-label="Web予約フォームへ（サンプルのためリンクは無効です）">Webで予約する</a>
+      <a class="btn btn-line btn-lg" href="#" aria-label="LINEで予約（サンプルのためリンクは無効です）">LINEで予約</a>
+    </div>
+    <p class="reserve-tel">お電話：<a href="#">0000-00-0000</a>（架空の番号です）</p>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <span class="brand-mark">凪</span>
+      <span class="brand-type">nagi<span class="brand-sub">facial salon</span></span>
+    </div>
+    <ul class="footer-links">
+      <li><a href="#concept">コンセプト</a></li>
+      <li><a href="#menu">メニュー</a></li>
+      <li><a href="#access">アクセス</a></li>
+      <li><a href="#reserve">予約</a></li>
+    </ul>
+    <p class="footer-disclaimer">
+      このページは、Web制作のポートフォリオ用に制作した<strong>架空サロンのサンプル</strong>です。
+      掲載の店名・住所・電話番号・料金・お客様の声・担当者はすべて実在しません。<br>
+      写真：Unsplash ／ 制作：santaworks
+    </p>
+    <p class="footer-copy">© 2026 nagi facial salon（sample）</p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
